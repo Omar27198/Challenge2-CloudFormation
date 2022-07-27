@@ -4,7 +4,7 @@ You have been tasked with creating the required Infrastructure-as-code scripts f
 
 ![AWSWebApp](https://user-images.githubusercontent.com/23401470/181375463-f1b93a01-60e4-4d79-b72c-b8e3b3553d9d.jpeg)
 
-<br /><br />
+<br />
 ToDo<br />
 Write a CloudFormation script that:<br />
 1-) Creates a VPC, It will accept the IP Range -also known as CIDR block- from an input parameter <br />
