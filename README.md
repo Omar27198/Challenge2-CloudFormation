@@ -3,7 +3,7 @@ Project Overview
 You have been tasked with creating the required Infrastructure-as-code scripts for a new cloud environment in AWS. The Lead Solutions Architect for the project sends you the following diagram.
 ToDo
 Write a CloudFormation script that:
-1-) Creates a VPC, It will accept the IP Range -also known as CIDR block- from an input parameter
+1-) Creates a VPC, It will accept the IP Range -also known as CIDR block- from an input parameter <br />
 2-) Creates and attaches an Internet Gateway to the VPC
 3-) Creates Four Subnets within the VPC with Name Tags to call them “Public” and “Private” These will also need input parameters for their ranges, just like the VPC. The Subnet called “Public” needs to have a NAT Gateway deployed in it This will require you to allocate an Elastic IP that you can then use to assign it to the NAT Gateway. The Public Subnet needs to have the MapPublicIpOnLaunch property set to true. Use this reference for help. The Private Subnet needs to have the MapPublicIpOnLaunch property set to false. Both subnets need to be /24 in size. If you need assistance with IP math, you can use a subnet calculator such as this one.
 You will need 3 Routing Tables, one named Public and the other two Private Assign the Public and Private Subnets to their corresponding Routing table
