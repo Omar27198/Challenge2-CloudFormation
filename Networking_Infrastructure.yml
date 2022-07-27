@@ -1,10 +1,5 @@
-#aws cloudformation create-stack  --stack-name myFirstTest --region us-east-1 --template-body file://testcfn.yml
-#aws cloudformation update-stack  --stack-name myFirstTest --region us-east-1 --template-body file://testcfn.yml
-#aws cloudformation describe-stacks --stack-name myFirstTest
-#aws cloudformation delete-stack --stack-name myFirstTest
-
 AWSTemplateFormatVersion: 2010-09-09
-Description: Omar Adel / Udacity - This template deploys a VPC
+Description: Omar Adel / This template to deploys a Networking Infrastructure
 
 Parameters: 
     VpcCIDR:
